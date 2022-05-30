@@ -255,3 +255,50 @@
     }
 
 }
+
+/* Menu Superior*/
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 50px;
+    color: white;
+    
+}
+
+.menu {
+    padding: 20px 110px;
+}
+
+li a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: rgba(255, 168, 1,1.0);
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+footer p {
+    margin-bottom: 30x;
+}
