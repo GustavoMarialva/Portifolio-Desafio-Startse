@@ -84,9 +84,9 @@
 #presentation .cta {
     display: inline-block;
     padding: 10px 30px;
-    color: rgb(177, 157, 40);
+    color: rgba(255, 168, 1,1.0);
     background-color: transparent;
-    border: 2px solid rgb(177, 157, 40);
+    border: 2px solid rgba(255, 168, 1,1.0);
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
@@ -98,7 +98,7 @@
 #presentation .cta:hover {
     color: white;
     font-weight: 400;
-    background-color: rgb(177, 157, 40);
+    background-color: rgba(255, 168, 1,1.0);
 }
 
 #presentation h1 span {
@@ -109,7 +109,7 @@
     width: 0%;
     animation: text_reveal_box 1s ease;
     animation-delay: .5s;
-    background-color: rgb(177, 157, 40);
+    background-color: rgba(255, 168, 1,1.0);
 }
 
 #presentation h1:nth-child(1) span {
@@ -172,11 +172,29 @@
     flex-basis: 50%;
     height: 100%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    background-image: linear-gradient(60deg, #ccae62 0%, #cc8e35 100% );
-    opacity: 0.7;
+    background-image: linear-gradient(60deg, rgba(255, 192, 72,1.0) 0%, rgba(255, 168, 1,1.0) 100% );
+    color: white;
+}
+
+#portifolio .project-info h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+#portifolio .project-info h2 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+#portifolio .project-img {
+    flex-basis: 50%;
+    font-weight: 400;
+    overflow: hidden;
+    position: relative;
 }
 
 #portifolio .project-img img {
@@ -197,7 +215,7 @@
 
 @keyframes text_reveal_name {
     100% {
-        color: rgb(177, 157, 40);
+        color: rgba(255, 168, 1,1.0);
         font-weight: 700px;
     }
 }
