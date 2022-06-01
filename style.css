@@ -42,7 +42,7 @@
      font-weight: 700;
      color: black;
      margin-bottom: 10px;
-     margin-top: 5px;
+     margin-top: -80px;
      text-transform: uppercase;
      letter-spacing: 0.2rem;
      text-align: center;
@@ -280,6 +280,8 @@ li a {
 nav a:hover {
     color: rgba(255, 168, 1,1.0);
 }
+
+/* Footer*/
 
 footer img {
     width: 40px;
