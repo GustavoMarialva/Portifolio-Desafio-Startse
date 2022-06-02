@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Roboto';
+    scroll-behavior: smooth;
+}
+
+p {
+    font-size: 1.8rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 0.05rem;
+    text-align: left;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: black;
+    margin-top: 80px;
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+#img {
+    width: auto;
+    height: 700px;
+    padding: auto;
+}
+
+.menu {
+    padding: 20px 110px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 50px;
+    color: black;
+}
+
+li a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    color: rgba(255, 168, 1, 1.0);
+}
+
+.apresentacao {
+    padding-left: 200px;
+    padding-right:200px;
+}
+
+/* Media Query*/
+@media only screen and (min-width: 768px) {
+    #portifolio .project-item {
+        flex-direction: row;
+        height: 400px;
+        margin: 0;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    #portifolio .all-projects .project-info {
+        height: 100%;
+    }
+
+    #portifolio .all-projects .project-img {
+        height: 100%;
+    }
+
+    #portifolio .project-item:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+
+}
+
+p#img {
+    text-align: center;
+}
+
+/* Footer*/
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+footer p {
+    margin-bottom: 30x;
+}
+
+footer .icon:hover {
+    opacity: 0.7;
+}
