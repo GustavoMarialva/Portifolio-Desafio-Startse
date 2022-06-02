@@ -22,7 +22,7 @@
                             <a href="casamentos.html">Casamentos</a>
                         </li>
                         <li>
-                            <a href="contato.html">Contato</a>
+                            <a href="#contato">Contato</a>
                         </li>
                     </ul>
                 </nav>
@@ -111,6 +111,53 @@
             </section>
         </main>
     </div>
+
+    <div class="portifolio header">
+        <h1 class="section-title"><span>Contato</span></h1>
+    </div>
+    <form action="" method="post" class="contato" id="contato">
+        <fieldset class="contato">
+            <legend>Quero conhecer a história de vocês!</legend>
+            <div>
+               <label for="nome" id="nome">Nome*: </label> <input type="text" name="nome" id="nome" placeholder="Nome completo" required> 
+            </div>
+            <div>
+                <label for="email">E-mail*: </label>
+                <input type="email" name="email" id="email" placeholder="exemplo@email.com" required>
+            </div>
+            <div>
+                <label for="telefone">Telefone*: </label>
+                <input type="number" name="telefone" id="telefone" placeholder="Telefone" required>
+            </div>
+            <div>
+                <label for="local" id="local">Local do Evento*: </label>
+                <input type="text" name="local" id="local" placeholder="Local do evento" required>
+            </div>
+            <div>
+                <label for="date">Data do evento:</label>
+                <input type="date" name="date" id="date">
+            </div>
+            <div>
+                <label for="evento" id="evento">Qual o evento? </label><select name="evento" id="evento">Qual o evento? 
+                    <option value="" selected></option>
+                    <option value="Casamento">Casamento</option>
+                    <option value="Mini-wedding">Mini-wedding</option>
+                    <option value="Elopment">Elopment</option>
+                    <option value="Ensaio">Ensaio</option>
+                    <option value="Festa infantil">Festa infantil</option>
+                    <option value="Corporativo">Corporativo</option>
+                </select>
+                
+            </div>
+            <div>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
+            </div>
+            <button type="submit" class="botao">Enviar</button>
+
+            
+        </fieldset>
+    </form>
+        
     <div>
         <footer>
             <a href="https://www.instagram.com/gustavomarialva/" class="icon">
@@ -126,7 +173,6 @@
                 <img src="/img/linkedin.png" alt="logo linkedin">
                 <p>Linkedin</p>
             </a>
-
         </footer>
     </div>
 </body>

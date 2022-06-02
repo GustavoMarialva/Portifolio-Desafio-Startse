@@ -1,78 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
- * {
-     padding: 0;
-     margin: 0;
-     box-sizing: border-box;
- }
 
- html {
-     font-size: 10px;
-     font-family: 'Roboto', 'Times New Roman', Times, serif;
-     scroll-behavior: smooth;
- }
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
- a {
-     text-decoration: none;
- }
+html {
+    font-size: 10px;
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
 
- img {
-     height: 100%;
-     width: 100%;
-     object-fit: cover;
- }
+a {
+    text-decoration: none;
+}
 
- p {
-     font-size: 1.4rem;
-     margin-top: 5px;
-     line-height: 2.5rem;
-     font-weight: 300;
-     letter-spacing: 0.05rem;
- }
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 
- .container {
-     min-height: 100vh;
-     width: 100%;
-     display: flex;
-     align-items: center;
-     justify-content: center;
- }
+p {
+    font-size: 1.4rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 0.05rem;
+}
 
- .section-title {
-     font-size: 4rem;
-     font-weight: 700;
-     color: black;
-     margin-bottom: 10px;
-     margin-top: -80px;
-     text-transform: uppercase;
-     letter-spacing: 0.2rem;
-     text-align: center;
- }
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
- /* Seção de apresentação*/
+.section-title {
+    font-size: 4rem;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: -80px;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
 
- #presentation {
-     background-image: url(./img/casamento-carol-yuri-fotografo-gustavo-marialva-712.jpg);
-     background-size: cover;
-     background-position: top center;
-     position: relative;
-     z-index: 1;
- }
+/* Seção de apresentação*/
 
- #presentation h1 {
-     display: block;
-     width: fit-content;
-     font-size: 5rem;
-     position: relative;
-     color: transparent;
-     animation: text_reveal .5s ease forwards;
-     animation-delay: 1.5s;
- }
+#presentation {
+    background-image: url(./img/casamento-carol-yuri-fotografo-gustavo-marialva-712.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+}
 
- #presentation h1:nth-child(1) {
-     animation-delay: .8s;
- }
+#presentation h1 {
+    display: block;
+    width: fit-content;
+    font-size: 5rem;
+    position: relative;
+    color: transparent;
+    animation: text_reveal .5s ease forwards;
+    animation-delay: 1.5s;
+}
 
- #presentation h1:nth-child(2) {
+#presentation h1:nth-child(1) {
+    animation-delay: .8s;
+}
+
+#presentation h1:nth-child(2) {
     animation-delay: 1.8s;
 }
 
@@ -84,9 +85,9 @@
 #presentation .cta {
     display: inline-block;
     padding: 10px 30px;
-    color: rgba(255, 168, 1,1.0);
+    color: rgba(255, 168, 1, 1.0);
     background-color: transparent;
-    border: 2px solid rgba(255, 168, 1,1.0);
+    border: 2px solid rgba(255, 168, 1, 1.0);
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
@@ -98,7 +99,7 @@
 #presentation .cta:hover {
     color: white;
     font-weight: 400;
-    background-color: rgba(255, 168, 1,1.0);
+    background-color: rgba(255, 168, 1, 1.0);
 }
 
 #presentation h1 span {
@@ -109,7 +110,7 @@
     width: 0%;
     animation: text_reveal_box 1s ease;
     animation-delay: .5s;
-    background-color: rgba(255, 168, 1,1.0);
+    background-color: rgba(255, 168, 1, 1.0);
 }
 
 #presentation h1:nth-child(1) span {
@@ -175,7 +176,7 @@
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    background-image: linear-gradient(60deg, rgba(255, 192, 72,1.0) 0%, rgba(255, 168, 1,1.0) 100% );
+    background-image: linear-gradient(60deg, rgba(255, 192, 72, 1.0) 0%, rgba(255, 168, 1, 1.0) 100%);
     color: white;
 }
 
@@ -215,7 +216,7 @@
 
 @keyframes text_reveal_name {
     100% {
-        color: rgba(255, 168, 1,1.0);
+        color: rgba(255, 168, 1, 1.0);
         font-weight: 700px;
     }
 }
@@ -229,7 +230,7 @@
     100% {
         width: 0;
         left: 100%;
-    } 
+    }
 }
 
 /* Media Query*/
@@ -245,7 +246,7 @@
     #portifolio .all-projects .project-info {
         height: 100%;
     }
-    
+
     #portifolio .all-projects .project-img {
         height: 100%;
     }
@@ -264,7 +265,7 @@ ul {
     align-items: center;
     padding: 50px;
     color: white;
-    
+
 }
 
 .menu {
@@ -278,7 +279,7 @@ li a {
 }
 
 nav a:hover {
-    color: rgba(255, 168, 1,1.0);
+    color: rgba(255, 168, 1, 1.0);
 }
 
 /* Footer*/
@@ -307,4 +308,76 @@ footer p {
 
 footer .icon:hover {
     opacity: 0.7;
+}
+
+/* Formulário*/
+form {
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+    padding-top: 20px;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+fieldset {
+    border: 0;
+}
+
+input, select, textarea, button {
+    border-radius: 5px;
+}
+
+.contato {
+    margin-bottom: 0.2em;
+}
+
+.contato label {
+    margin-bottom: 0.2em;
+}
+
+.contato input[type='text'], .contato input[type='email'], .contato input[type='number'], .contato input[type='date'], .contato input[type='textarea'] {
+    padding: 0.4em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, o.2);
+}
+
+.contato select option {
+    padding-right: 10em;
+}
+
+.botao {
+    font-size: 1.5rem;
+    border: 0;
+    background: rgba(255, 168, 1, 1.0);
+    margin-bottom: em;
+    color: black;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    top: 90%;
+    position: relative;
+}
+
+.botao:hover {
+    background: black;
+    color: white;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+
+}
+
+label {
+    display: inline-block;
+    width: 140px;
+    text-align: left;
+}
+
+#mensagem {
+    width: 303px;
+}
+
+legend {
+    margin-bottom: 20px;
 }
